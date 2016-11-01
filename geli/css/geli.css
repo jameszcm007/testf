@@ -1,0 +1,103 @@
+/*html,body,ul,li,dl,dt,dd,p,h1,h2,h3,h4,h5,h6,img{margin:0;padding:0;}*/
+*{margin: 0;padding: 0;}
+a{text-decoration:none;color: #999;}
+li{ list-style:none;}
+img{ border:none; display:block;}
+body{font:12px "微软雅黑";}
+input{border: 0;background: none;}
+
+
+.top{width: 100%;height: 34px;background: #f5f5f5;}
+.top_nav{width: 980px;height: 34px;margin: 0 auto;}
+.top_nav_left{float: left;}
+.top_nav_left li{height: 34px;line-height: 34px;float: left;}
+.top_shoucang{width: 68px;}
+#top_sc{margin-left:0;}
+#top_pic{margin-right: 0px;}
+#top_pic img{float: right;margin-top: 10px;}
+.top_address{margin-left: 20px;width: 114px;}
+.top_address_city{display: block;width: 66px;height: 24px;background:#c00;color: #fff;
+			text-align: center;line-height: 24px;float: right;margin-top: 5px;cursor: pointer;}
+.top_address_city:hover{text-decoration: underline;}	
+
+.top_nav_right{float: right;margin-top: 5px;}		
+.top_nav_right li{float: left;width: 68px;height: 24px;line-height: 24px;text-align: center;}
+.top_nav_right .top_login{width: 90px;}
+.top_nav_right li span{float: right;color: #ddd;}
+.top_nav_right li a:hover{color: red;text-decoration: underline;}
+.top_nav_right .mob_shopping:hover{background: #fff;}
+.top_nav_right .mob_shopping a:hover{text-decoration:none;color: #666666;}
+.top_nav_right .mob_shopping .mob_sp:hover{cursor: default;color: #999;}
+.mob_shoppingApp{width:213px ;height:140px ;background: #fff;position: relative;left:-145px;top: 0;
+				display: none;}
+.mob_shoppingApp p{margin-left: 8px;width: 100%;text-align: left;height: 38px;line-height: 38px;}
+.mob_shoppingApp .mob_version{width: 94px;height: 102px;margin-left: 8px;float: left;}
+.mob_shoppingApp .mob_version a{display: block;width: 94px;height: 24px;margin-bottom: 10px;}
+.mob_shoppingApp .mob_version a:hover{text-decoration: underline;color: #fff;}
+.mob_shoppingApp .mob_version .iPhone{background: url(../img/p4.jpg);}
+.mob_shoppingApp .mob_version .iPhone:hover{background: url(../img/p4a.jpg);}
+.mob_shoppingApp .mob_version .iPad{background: url(../img/p5.jpg);}
+.mob_shoppingApp .mob_version .iPad:hover{background: url(../img/p5a.jpg);}
+.mob_shoppingApp .mob_version .Android{background: url(../img/p6.jpg);}
+.mob_shoppingApp .mob_version .Android:hover{background: url(../img/p6a.jpg);}
+.QR_code{width: 88px;height: 88px;float: right;margin-right: 10px;}
+.QR_code img{width: 100%;height: 100%;}
+/*顶部*/
+
+.neck{width: 100%;height: 100px;background: #fafafa;}
+.wrapper{width: 980px;height: 100px;margin: 0 auto;}
+.wrapper .logo{display: block;margin-top:38px;width: 268px;height: 38px;float: left;margin-right: 40px;}
+#searchbox{width: 470px;height: 60px;margin-top: 20px;float: left;}
+#searchbox input{float: left;}
+#putIn{width: 384px;padding-left: 3px;line-height: 30px;border:3px solid #c00;}
+#search{width: 77px;text-align: center;background: #c00;color: #fff;line-height: 36px;border: 0;}
+#searchbox .hotwords{display: block;margin-top: 44px;width: 470px;height: 16px;}
+#searchbox .hotwords .rose{color: red;}
+#searchbox .hotwords b{color: #999;}
+#searchbox .hotwords a{margin-right: 14px;}
+#searchbox .hotwords a:hover{color: red;}
+.wrapper .service{width: 180px;height: 55px;margin-top: 20px;float: right;}
+.wrapper .service li{width: 60px; height: 55px;float: left;}
+.wrapper .service .zhengpin div{display: block;width: 30px;height: 32px;background: url(../img/p1.jpg);
+				margin-left: 15px;}
+.wrapper .service span{width: 60px;height: 23px;line-height: 23px;text-align: center;display: block;}
+.wrapper .service .shouhou div{display: block;width: 33px;height: 32px;background: url(../img/p2.jpg);
+				margin-left: 13px;}
+.wrapper .service .baoyou div{display: block;width: 39px;height: 26px;background: url(../img/p3.jpg);
+				margin-left: 11px;margin-bottom: 6px;}	
+/*搜索栏*/	
+
+
+.header{width: 100%;height: 40px;background: #e23639;}	
+.header .header_nav{width: 980px;height: 100%;margin: 0 auto;}
+.header .header_nav .tNav{width: 725px;height: 100%;float: left;}
+.header .header_nav .tNav li{width: 100px;height: 100%;float: left;}
+.header .header_nav .tNav li a{width: 100%;height: 100%;text-align:center;line-height:40px;display: block;color: #fff;}
+.header .header_nav .tNav .allgoods{height: 100%;width: 205px;background:url(../img/p7.png) no-repeat #cc0000 195px center;
+						line-height:40px;float: left;padding-left: 20px;}
+.header .header_nav .tNav .navdiv{width: 750px;}		/*设计导航栏格式*/			
+.header .header_nav .tNav .allgoods .allgoods_sort{display: block;width: 100%;height: 40px;}							
+.header .header_nav .tNav .tegong{background: #a40000;}
+.header .header_nav .tNav li:hover{background: #a40000;}
+.header .header_nav .catalog{float:right;color: #fff;display: block;width: 70px;height: 40px;padding-left: 50px;
+				line-height: 40px;background: url(../img/p8.png) no-repeat #a40000 18px 12px;cursor: pointer;}				
+/*头部导航*/				
+
+
+.banner{width: 100%;height: 410px;}elative;}
+.banner	a{display: block;width: 100%;height: 100%;posi
+.banner .banner_p{width: 100%;height: 100%;position: rtion: absolute;opacity: 0;}
+.banner .banner_p1{background: url(../img/banner1.jpg) 50% 0 no-repeat;opacity: 1;}
+.banner .banner_p2{background: url(../img/banner2.jpg) 50% 0 no-repeat;}
+.banner .banner_p3{background: url(../img/banner3.jpg) 50% 0 no-repeat;}
+.banner .banner_p4{background: url(../img/banner4.jpg) 50% 0 no-repeat;}
+.banner .banner_p5{background: url(../img/banner5.jpg) 50% 0 no-repeat;}
+.banner .banner_p6{background: url(../img/banner6.jpg) 50% 0 no-repeat;}
+.banner .left{width: 40px;height: 60px;position: absolute;left: 10%;top:350px;display: none;
+				background: url(../img/banner_left.png) rgba(0,0,0,0.3)  no-repeat center center;}
+.banner .right{width: 40px;height: 60px;position: absolute;right: 10%;top:350px;display: none;
+				background: url(../img/banner_right.png) rgba(0,0,0,0.3)  no-repeat center center;}	
+.banner_btn	{width: 264px;height: 12px;position: absolute;left:40%;top:550px ;}	
+.banner_btn span{display: block;width: 42px;height: 100%;margin-right: 2px;
+				background: rgba(0,0,0,0.3);float: left;}
+.banner_btn .index1{background:rgba(255,0,0,0.3) ;}			
